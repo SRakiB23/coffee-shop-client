@@ -29,7 +29,7 @@ function UpdateCoffee() {
     };
     console.log(updatedCoffee);
 
-    fetch(`http://localhost:5000/coffee/${_id}`, {
+    fetch(`http://localhost:3000/coffee/${_id}`, {
       method: "PUT",
       headers: {
         "content-type": "application/json",

@@ -8,8 +8,10 @@ function App() {
   const [coffees, setCoffees] = useState(loadedCoffees);
 
   return (
-    <div className="m-20">
-      <h1 className="text-6xl text-blue-600">Coffee Lover {coffees.length}</h1>
+    <div className="m-8">
+      <h1 className="text-6xl text-center mb-20 font-bold text-blue-600">
+        Coffee Lover
+      </h1>
       <div className="grid md:grid-cols-2 gap-4">
         {coffees.map((coffee) => (
           <CoffeeCard
